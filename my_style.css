@@ -1,0 +1,81 @@
+body {
+  background: #fff;
+}
+
+.img-container {
+  position: relative;
+  margin-top: 80px;
+  text-align: center;
+  color: black;
+}
+
+.img-container img{
+  width: 400px;
+  top: 10px;
+}
+
+.centered {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#comic-img img {
+  position: absolute;
+  left: 30px;
+  bottom: 10px;
+  width: 400px;
+  height: auto;
+}
+
+#panel:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.info {
+  box-sizing: border-box;
+  height: 70px;
+  background-color: #ccc;
+}
+
+.choice{
+  width: 45%;
+  float: left;
+  padding: 20px;
+}
+.color{
+  width: 8%;
+  float: left;
+  padding: 20px;
+}
+
+.timer{
+  float: left;
+  width: 35%;
+  padding: 20px;
+  align-content: center;
+}
+
+.shape {
+  float: right;
+  width: 12%;
+  padding: 5px;
+}
+
+#section2 #container {
+    float:right;
+    position: absolute;
+    top: 15%;
+    left: 29%;
+
+}
+
+#section3 {
+  margin: 0;
+  position: absolute;
+  top: 44%;
+  left: 44%;
+}
